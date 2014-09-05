@@ -1,0 +1,3 @@
+08/28 00:56:17 WARNI| utils_env:0164| Creating new, empty env file
+08/28 00:57:21 ERROR|  warnings:0029| /home/test/autotest-devel/client/tests/virt/virttest/video_maker.py:200: DeprecationWarning: gst.Bin.add_many() is deprecated, use gst.Bin.add()
+08/28 00:57:21 ERROR|  warnings:0029|   pipeline.add_many(source, decoder, encoder, container, output)

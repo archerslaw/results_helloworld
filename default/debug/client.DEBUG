@@ -1,0 +1,755 @@
+08/28 00:54:11 INFO |       job:0188| Writing results to /home/test/autotest-devel/client/results/default
+08/28 00:54:11 DEBUG|       job:0963| Initializing the state engine
+08/28 00:54:11 DEBUG|  base_job:0393| Persistent state client.steps now set to []
+08/28 00:54:11 DEBUG|       job:0985| Persistent option harness now set to None
+08/28 00:54:11 DEBUG|       job:0985| Persistent option harness_args now set to None
+08/28 00:54:11 DEBUG|   harness:0087| Selected harness: standalone
+08/28 00:54:11 INFO |       job:0215| START	----	----	timestamp=1409158451	localtime=Aug 28 00:54:11	
+08/28 00:54:11 DEBUG|  base_job:0393| Persistent state client._record_indent now set to 1
+08/28 00:54:11 INFO | bootstrap:0446| 
+08/28 00:54:11 INFO | bootstrap:0448| 1 - Generating config set
+08/28 00:54:11 DEBUG| bootstrap:0472| Creating config file /home/test/autotest-devel/client/tests/virt/test-providers.d/downloads/io-github-autotest-qemu/qemu/cfg/base.cfg from sample
+08/28 00:54:11 DEBUG| bootstrap:0472| Creating config file /home/test/autotest-devel/client/tests/virt/test-providers.d/downloads/io-github-autotest-qemu/qemu/cfg/guest-hw.cfg from sample
+08/28 00:54:11 DEBUG| bootstrap:0472| Creating config file /home/test/autotest-devel/client/tests/virt/test-providers.d/downloads/io-github-autotest-qemu/qemu/cfg/cdkeys.cfg from sample
+08/28 00:54:11 DEBUG| bootstrap:0472| Creating config file /home/test/autotest-devel/client/tests/virt/test-providers.d/downloads/io-github-autotest-qemu/qemu/cfg/virtio-win.cfg from sample
+08/28 00:54:11 DEBUG| bootstrap:0472| Creating config file /home/test/autotest-devel/client/tests/virt/test-providers.d/downloads/io-github-autotest-qemu/qemu/cfg/machines.cfg from sample
+08/28 00:54:43 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.18-274')
+08/28 00:54:43 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.18-308')
+08/28 00:54:43 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:54:43 INFO |   control:0111| require is: (['>= 2.6.18-274', '<  2.6.18-308'],)
+08/28 00:54:43 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:54:43 INFO |   control:0111| 
+08/28 00:55:00 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.18-308')
+08/28 00:55:00 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.18-348')
+08/28 00:55:00 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:55:00 INFO |   control:0111| require is: (['>= 2.6.18-308', '<  2.6.18-348'],)
+08/28 00:55:00 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:55:00 INFO |   control:0111| 
+08/28 00:55:16 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.18-348')
+08/28 00:55:16 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.18-349')
+08/28 00:55:16 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:55:16 INFO |   control:0111| require is: (['>= 2.6.18-348', '<  2.6.18-349'],)
+08/28 00:55:16 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:55:16 INFO |   control:0111| 
+08/28 00:55:32 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.18-349')
+08/28 00:55:32 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.18-372')
+08/28 00:55:32 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:55:32 INFO |   control:0111| require is: (['>= 2.6.18-349', '<  2.6.18-372'],)
+08/28 00:55:32 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:55:32 INFO |   control:0111| 
+08/28 00:55:49 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.18-372')
+08/28 00:55:49 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.19')
+08/28 00:55:49 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:55:49 INFO |   control:0111| require is: (['>= 2.6.18-372', '<  2.6.19'],)
+08/28 00:55:49 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:55:49 INFO |   control:0111| 
+08/28 00:55:56 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.32-131')
+08/28 00:55:56 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.32-220')
+08/28 00:55:56 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:55:56 INFO |   control:0111| require is: (['>= 2.6.32-131', '<  2.6.32-220'],)
+08/28 00:55:56 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:55:56 INFO |   control:0111| 
+08/28 00:55:58 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.32-220')
+08/28 00:55:58 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.32-279')
+08/28 00:55:58 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:55:58 INFO |   control:0111| require is: (['>= 2.6.32-220', '<  2.6.32-279'],)
+08/28 00:55:58 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:55:58 INFO |   control:0111| 
+08/28 00:56:00 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.32-279')
+08/28 00:56:00 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.32-280')
+08/28 00:56:00 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:56:00 INFO |   control:0111| require is: (['>= 2.6.32-279', '<  2.6.32-280'],)
+08/28 00:56:00 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:56:00 INFO |   control:0111| 
+08/28 00:56:02 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.32-280')
+08/28 00:56:02 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.32-359')
+08/28 00:56:02 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:56:02 INFO |   control:0111| require is: (['>= 2.6.32-280', '<  2.6.32-359'],)
+08/28 00:56:02 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:56:02 INFO |   control:0111| 
+08/28 00:56:04 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.32-359')
+08/28 00:56:04 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.32-432')
+08/28 00:56:04 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:56:04 INFO |   control:0111| require is: (['>= 2.6.32-359', '<  2.6.32-432'],)
+08/28 00:56:04 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:56:04 INFO |   control:0111| 
+08/28 00:56:06 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.32-432')
+08/28 00:56:06 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.33')
+08/28 00:56:13 INFO |utils_misc:0495| Test    1:  smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world
+08/28 00:56:15 DEBUG|     utils:0116| Running '/usr/bin/kvm_stat --batch'
+08/28 00:56:16 INFO |       job:0215| 	START	virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world	virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world	timestamp=1409158576	localtime=Aug 28 00:56:16	
+08/28 00:56:16 DEBUG|  base_job:0393| Persistent state client._record_indent now set to 2
+08/28 00:56:16 DEBUG|  base_job:0393| Persistent state client.unexpected_reboot now set to ('virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world', 'virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world')
+08/28 00:56:16 DEBUG|      test:0310| Profilers present. Profiling run started
+08/28 00:56:16 DEBUG|     utils:0116| Running 'git describe --abbrev=4'
+08/28 00:56:16 DEBUG|     utils:0116| Running 'git rev-parse --abbrev-ref HEAD'
+08/28 00:56:16 DEBUG|     utils:0116| Running 'git show --summary --pretty='%H' | head -1'
+08/28 00:56:16 INFO |      virt:0057| Virt Test '0.15.1-master-14406-g18820', Branch 'master', SHA1 '188205a7bdb33f7b2a3babc8ac4935b17f3fcfaa'
+08/28 00:56:16 DEBUG|      virt:0059| Test parameters:
+08/28 00:56:16 DEBUG|      virt:0063|     _name_map_file = {'tests-example.cfg': 'smp_4.4096m.repeat1', 'subtests.cfg': '(subtest=type_specific).(subtest=io-github-autotest-qemu).(subtest=hello_world)', 'guest-hw.cfg': '(image_backend=filesystem).no_9p_export.smallpages.no_pci_assignable.qcow2.virtio_scsi.up.virtio_net', 'host-kernel-internal.cfg': 'Host_RHEL.6.6', 'guest-os.cfg': 'Linux.RHEL.6.6.x86_64', 'machines.cfg': 'i440fx', 'guest-hw-internal.cfg': 'vnc.local_stg'}
+08/28 00:56:16 DEBUG|      virt:0063|     _short_name_map_file = {'tests-example.cfg': 'smp_4.4096m.repeat1', 'subtests.cfg': 'type_specific.io-github-autotest-qemu.hello_world', 'guest-hw.cfg': 'filesystem.no_9p_export.smallpages.no_pci_assignable.qcow2.virtio_scsi.up.virtio_net', 'host-kernel-internal.cfg': 'Host_RHEL.6.6', 'guest-os.cfg': 'Linux.RHEL.6.6.x86_64', 'machines.cfg': 'i440fx', 'guest-hw-internal.cfg': 'vnc.local_stg'}
+08/28 00:56:16 DEBUG|      virt:0063|     address_range_base_mac_r1 = 00:11:22:33:AB:08
+08/28 00:56:16 DEBUG|      virt:0063|     address_ranges = r1
+08/28 00:56:16 DEBUG|      virt:0063|     always_use_tcpdump = yes
+08/28 00:56:16 DEBUG|      virt:0063|     auto_cpu_model = yes
+08/28 00:56:16 DEBUG|      virt:0063|     backup_dir = images/
+08/28 00:56:16 DEBUG|      virt:0063|     backup_image = no
+08/28 00:56:16 DEBUG|      virt:0063|     backup_image_on_check_error = no
+08/28 00:56:16 DEBUG|      virt:0063|     boot_menu = off
+08/28 00:56:16 DEBUG|      virt:0063|     boot_once = c
+08/28 00:56:16 DEBUG|      virt:0063|     boot_order = cdn
+08/28 00:56:16 DEBUG|      virt:0063|     brew_tag = RHEL-6.6-candidate
+08/28 00:56:16 DEBUG|      virt:0063|     cd_format = scsi-cd
+08/28 00:56:16 DEBUG|      virt:0063|     cdrom_check_cdrom_pattern = /dev/cdrom-\w+|/dev/cdrom\d*
+08/28 00:56:16 DEBUG|      virt:0063|     cdrom_get_cdrom_cmd = ls /dev/cdrom*
+08/28 00:56:16 DEBUG|      virt:0063|     cdrom_test_cmd = dd if=%s of=/dev/null bs=1 count=1
+08/28 00:56:16 DEBUG|      virt:0063|     cdroms = cd1
+08/28 00:56:16 DEBUG|      virt:0063|     check_image = yes
+08/28 00:56:16 DEBUG|      virt:0063|     check_img = no
+08/28 00:56:16 DEBUG|      virt:0063|     convert_ppm_files_to_png = yes
+08/28 00:56:16 DEBUG|      virt:0063|     cpu_chk_cmd = ls /sys/devices/system/cpu | egrep -c "cpu[0-9]+$"
+08/28 00:56:16 DEBUG|      virt:0063|     cpu_model = qemu64
+08/28 00:56:16 DEBUG|      virt:0063|     cpu_model_flags = 
+08/28 00:56:16 DEBUG|      virt:0063|     dd_timeout = 900
+08/28 00:56:16 DEBUG|      virt:0063|     dep = []
+08/28 00:56:16 DEBUG|      virt:0063|     display = vnc
+08/28 00:56:16 DEBUG|      virt:0063|     drive_cache = none
+08/28 00:56:16 DEBUG|      virt:0063|     drive_format = scsi-hd
+08/28 00:56:16 DEBUG|      virt:0063|     drive_index_cd1 = 1
+08/28 00:56:16 DEBUG|      virt:0063|     drive_index_image1 = 0
+08/28 00:56:16 DEBUG|      virt:0063|     drive_rerror_image1 = 
+08/28 00:56:16 DEBUG|      virt:0063|     drive_werror_image1 = 
+08/28 00:56:16 DEBUG|      virt:0063|     dst_dir = /mnt/linux
+08/28 00:56:16 DEBUG|      virt:0063|     enable_msix_vectors = yes
+08/28 00:56:16 DEBUG|      virt:0063|     encode_video_files = yes
+08/28 00:56:16 DEBUG|      virt:0063|     extra_params =  -no-kvm-pit-reinjection
+08/28 00:56:17 DEBUG|      virt:0063|     file_transfer_client = scp
+08/28 00:56:17 DEBUG|      virt:0063|     file_transfer_port = 22
+08/28 00:56:17 DEBUG|      virt:0063|     get_time_cmd = date +'TIME: %a %m/%d/%Y %H:%M:%S.%N'
+08/28 00:56:17 DEBUG|      virt:0063|     grub_file = /boot/grub/grub.conf
+08/28 00:56:17 DEBUG|      virt:0063|     guest_name = RHEL-Server-6.6-64
+08/28 00:56:17 DEBUG|      virt:0063|     guest_port_remote_shell = 22
+08/28 00:56:17 DEBUG|      virt:0063|     host_check_verbose = yes
+08/28 00:56:17 DEBUG|      virt:0063|     host_kernel_ver_str = Host_RHEL.6.6
+08/28 00:56:17 DEBUG|      virt:0063|     host_setup_flag = 1
+08/28 00:56:17 DEBUG|      virt:0063|     hosttype = small
+08/28 00:56:17 DEBUG|      virt:0063|     image_aio = native
+08/28 00:56:17 DEBUG|      virt:0063|     image_backend = filesystem
+08/28 00:56:17 DEBUG|      virt:0063|     image_boot = no
+08/28 00:56:17 DEBUG|      virt:0063|     image_chain = 
+08/28 00:56:17 DEBUG|      virt:0063|     image_clone_command = cp --reflink=auto %s %s
+08/28 00:56:17 DEBUG|      virt:0063|     image_format = qcow2
+08/28 00:56:17 DEBUG|      virt:0063|     image_name = images/RHEL-Server-6.6-64-virtio
+08/28 00:56:17 DEBUG|      virt:0063|     image_raw_device = no
+08/28 00:56:17 DEBUG|      virt:0063|     image_remove_command = rm -rf %s
+08/28 00:56:17 DEBUG|      virt:0063|     image_size = 20G
+08/28 00:56:17 DEBUG|      virt:0063|     image_snapshot = no
+08/28 00:56:17 DEBUG|      virt:0063|     image_unbootable_pattern = Hard Disk.*not a bootable disk
+08/28 00:56:17 DEBUG|      virt:0063|     image_verify_bootable = yes
+08/28 00:56:17 DEBUG|      virt:0063|     images = image1
+08/28 00:56:17 DEBUG|      virt:0063|     images_good = 10.66.90.128:/vol/S2/kvmauto/linux_img
+08/28 00:56:17 DEBUG|      virt:0063|     important_key = guest_name,platform,smp,mem,drive_format,nic_model,type,ksm,image_format,kvm_version,kvm_userspace_version,tag,medium,installation
+08/28 00:56:17 DEBUG|      virt:0063|     inactivity_treshold = 1800
+08/28 00:56:17 DEBUG|      virt:0063|     inactivity_watcher = logimage_remove_commnad = 'rm -rf %s'
+08/28 00:56:17 DEBUG|      virt:0063|     index_enable = yes
+08/28 00:56:17 DEBUG|      virt:0063|     indirect_image_blacklist = /dev/hda[\d]* /dev/sda[\d]* /dev/sg0 /dev/md0
+08/28 00:56:17 DEBUG|      virt:0063|     init_pci_addr = 4
+08/28 00:56:17 DEBUG|      virt:0063|     install_virtio = no
+08/28 00:56:17 DEBUG|      virt:0063|     isa_serials = serial0
+08/28 00:56:17 DEBUG|      virt:0063|     iterations = 1
+08/28 00:56:17 DEBUG|      virt:0063|     job_timeout = 0
+08/28 00:56:17 DEBUG|      virt:0063|     keep_ppm_files = no
+08/28 00:56:17 DEBUG|      virt:0063|     keep_ppm_files_on_error = no
+08/28 00:56:17 DEBUG|      virt:0063|     keep_screendumps = yes
+08/28 00:56:17 DEBUG|      virt:0063|     keep_screendumps_on_error = yes
+08/28 00:56:17 DEBUG|      virt:0063|     keep_video_files = yes
+08/28 00:56:17 DEBUG|      virt:0063|     keep_video_files_on_error = yes
+08/28 00:56:17 DEBUG|      virt:0063|     kill_timeout = 60
+08/28 00:56:17 DEBUG|      virt:0063|     kill_unresponsive_vms = yes
+08/28 00:56:17 DEBUG|      virt:0063|     kill_vm = no
+08/28 00:56:17 DEBUG|      virt:0063|     kill_vm_before_test = no
+08/28 00:56:17 DEBUG|      virt:0063|     kill_vm_gracefully = yes
+08/28 00:56:17 DEBUG|      virt:0063|     kill_vm_in_paused = yes
+08/28 00:56:17 DEBUG|      virt:0063|     kill_vm_on_error = yes
+08/28 00:56:17 DEBUG|      virt:0063|     kill_vm_only_when_paused = yes
+08/28 00:56:17 DEBUG|      virt:0063|     ksm = 0
+08/28 00:56:17 DEBUG|      virt:0063|     ksm_run = 1
+08/28 00:56:17 DEBUG|      virt:0063|     kvm_default = {'/sys/module/kvm/parameters/ignore_msrs': 'N', '/sys/module/kvm/parameters/min_timer_period_us': '500', '/sys/module/kvm/parameters/oos_shadow': 'Y', '/sys/module/kvm/parameters/allow_unsafe_assigned_interrupts': 'N'}
+08/28 00:56:17 DEBUG|      virt:0063|     kvm_userspace_ver_cmd = grep -q el5 /proc/version && rpm -qa | grep ^kvm-83-.* || rpm -qa | grep qemu-kvm-[0-9].*-.* | head -n 1
+08/28 00:56:17 DEBUG|      virt:0063|     kvm_ver_cmd = grep -q el5 /proc/version && cat /sys/module/kvm/version || uname -r
+08/28 00:56:17 DEBUG|      virt:0063|     local_ip = ENTER.YOUR.LOCAL.EXAMPLE.COM
+08/28 00:56:17 DEBUG|      virt:0063|     local_pwd = 
+08/28 00:56:17 DEBUG|      virt:0063|     login_timeout = 360
+08/28 00:56:17 DEBUG|      virt:0063|     mac_ip_filter = HWaddr (.\w+:\w+:\w+:\w+:\w+:\w+)\s+?inet addr:(.\d+\.\d+\.\d+\.\d+)
+08/28 00:56:17 DEBUG|      virt:0063|     machine_type = rhel6.6.0
+08/28 00:56:17 DEBUG|      virt:0063|     main_monitor = qmpmonitor1
+08/28 00:56:17 DEBUG|      virt:0063|     main_vm = virt-tests-vm1
+08/28 00:56:17 DEBUG|      virt:0063|     malloc_perturb = no
+08/28 00:56:17 DEBUG|      virt:0063|     mem = 4096
+08/28 00:56:17 DEBUG|      virt:0063|     mem_chk_cmd = dmidecode -t 17 | awk -F: '/Size/ {print $2}'
+08/28 00:56:17 DEBUG|      virt:0063|     mem_chk_cur_cmd = grep MemTotal /proc/meminfo
+08/28 00:56:17 DEBUG|      virt:0063|     mem_chk_re_str = [^\$]([0-9]+)
+08/28 00:56:17 DEBUG|      virt:0063|     migration_test_command = uname -r
+08/28 00:56:17 DEBUG|      virt:0063|     monitor_type = qmp
+08/28 00:56:17 DEBUG|      virt:0063|     monitor_type_qmpmonitor1 = qmp
+08/28 00:56:17 DEBUG|      virt:0063|     monitors = qmpmonitor1
+08/28 00:56:17 DEBUG|      virt:0063|     name = smp_4.4096m.repeat1.Host_RHEL.6.6.i440fx.vnc.local_stg.(image_backend=filesystem).no_9p_export.smallpages.no_pci_assignable.qcow2.virtio_scsi.up.virtio_net.Linux.RHEL.6.6.x86_64.(subtest=type_specific).(subtest=io-github-autotest-qemu).(subtest=hello_world)
+08/28 00:56:17 DEBUG|      virt:0063|     netdev_extra_params = 
+08/28 00:56:17 DEBUG|      virt:0063|     netdev_peer_re = \s{2,}(.*?):.*?peer=(.*?)\s
+08/28 00:56:17 DEBUG|      virt:0063|     netdst = switch
+08/28 00:56:17 DEBUG|      virt:0063|     nettype = bridge
+08/28 00:56:17 DEBUG|      virt:0063|     network_query = ifconfig
+08/28 00:56:17 DEBUG|      virt:0063|     nfs_iso = 10.66.90.128:/vol/S2/kvmauto/iso
+08/28 00:56:17 DEBUG|      virt:0063|     nic_mode = tap
+08/28 00:56:17 DEBUG|      virt:0063|     nic_model = virtio
+08/28 00:56:17 DEBUG|      virt:0063|     nics = nic1
+08/28 00:56:17 DEBUG|      virt:0063|     os_type = linux
+08/28 00:56:17 DEBUG|      virt:0063|     os_variant = rhel6
+08/28 00:56:17 DEBUG|      virt:0063|     package_check_cmd_kernel = uname -r
+08/28 00:56:17 DEBUG|      virt:0063|     package_version_pattern_kernel = [\.\-\_\w\d]+
+08/28 00:56:17 DEBUG|      virt:0063|     password = redhat
+08/28 00:56:17 DEBUG|      virt:0063|     paused_after_start_vm = no
+08/28 00:56:17 DEBUG|      virt:0063|     pci_assignable = no
+08/28 00:56:17 DEBUG|      virt:0063|     platform = 64
+08/28 00:56:17 DEBUG|      virt:0063|     post_command_noncritical = yes
+08/28 00:56:17 DEBUG|      virt:0063|     post_command_timeout = 600
+08/28 00:56:17 DEBUG|      virt:0063|     pre_check_cmd = grep 'Red Hat Enterprise Linux' /etc/redhat-release
+08/28 00:56:17 DEBUG|      virt:0063|     profilers = kvm_stat 
+08/28 00:56:17 DEBUG|      virt:0063|     provider = io-github-autotest-qemu
+08/28 00:56:17 DEBUG|      virt:0063|     qemu_binary = qemu
+08/28 00:56:17 DEBUG|      virt:0063|     qemu_img_binary = qemu-img
+08/28 00:56:17 DEBUG|      virt:0063|     qemu_io_binary = qemu-io
+08/28 00:56:17 DEBUG|      virt:0063|     qemu_sandbox = off
+08/28 00:56:17 DEBUG|      virt:0063|     qxl = on
+08/28 00:56:17 DEBUG|      virt:0063|     qxl_dev_memory = 33554432
+08/28 00:56:17 DEBUG|      virt:0063|     qxl_dev_nr = 1
+08/28 00:56:17 DEBUG|      virt:0063|     reboot_command = shutdown -r now
+08/28 00:56:17 DEBUG|      virt:0063|     redirs = 
+08/28 00:56:17 DEBUG|      virt:0063|     remote_ip = ENTER.YOUR.REMOTE.EXAMPLE.COM
+08/28 00:56:17 DEBUG|      virt:0063|     remote_pwd = 
+08/28 00:56:17 DEBUG|      virt:0063|     remote_user = root
+08/28 00:56:17 DEBUG|      virt:0063|     remove_image = no
+08/28 00:56:17 DEBUG|      virt:0063|     requires_kernel = [">= 2.6.32-432", "<  2.6.33"]
+08/28 00:56:17 DEBUG|      virt:0063|     restore_image = no
+08/28 00:56:17 DEBUG|      virt:0063|     restore_image_on_check_error = no
+08/28 00:56:17 DEBUG|      virt:0063|     rtc_drift = slew
+08/28 00:56:17 DEBUG|      virt:0063|     run_tcpdump = yes
+08/28 00:56:17 DEBUG|      virt:0063|     screendump_delay = 5
+08/28 00:56:17 DEBUG|      virt:0063|     screendump_quality = 30
+08/28 00:56:17 DEBUG|      virt:0063|     screendump_temp_dir = /dev/shm
+08/28 00:56:17 DEBUG|      virt:0063|     screendump_verbose = no
+08/28 00:56:17 DEBUG|      virt:0063|     scsi_hba = virtio-scsi-pci
+08/28 00:56:17 DEBUG|      virt:0063|     setup_ksm = yes
+08/28 00:56:17 DEBUG|      virt:0063|     shell_client = ssh
+08/28 00:56:17 DEBUG|      virt:0063|     shell_port = 22
+08/28 00:56:17 DEBUG|      virt:0063|     shell_prompt = ^\[.*\][\#\$]\s*$
+08/28 00:56:17 DEBUG|      virt:0063|     shortname = smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world
+08/28 00:56:17 DEBUG|      virt:0063|     shutdown_command = shutdown -h now
+08/28 00:56:17 DEBUG|      virt:0063|     skip_cluster_leak_warn = no
+08/28 00:56:17 DEBUG|      virt:0063|     skip_image_check_during_running = no
+08/28 00:56:17 DEBUG|      virt:0063|     skip_image_processing = no
+08/28 00:56:17 DEBUG|      virt:0063|     sleep_time = 5
+08/28 00:56:17 DEBUG|      virt:0063|     smp = 4
+08/28 00:56:17 DEBUG|      virt:0063|     snapshot_name = vm
+08/28 00:56:17 DEBUG|      virt:0063|     soundcards = ac97
+08/28 00:56:17 DEBUG|      virt:0063|     spice = disable-ticketing
+08/28 00:56:17 DEBUG|      virt:0063|     spice_addr = 0
+08/28 00:56:17 DEBUG|      virt:0063|     spice_agent_mouse = on
+08/28 00:56:17 DEBUG|      virt:0063|     spice_gen_x509 = yes
+08/28 00:56:17 DEBUG|      virt:0063|     spice_image_compression = auto_glz
+08/28 00:56:17 DEBUG|      virt:0063|     spice_ipv4 = yes
+08/28 00:56:17 DEBUG|      virt:0063|     spice_ipv6 = no
+08/28 00:56:17 DEBUG|      virt:0063|     spice_password = 123456
+08/28 00:56:17 DEBUG|      virt:0063|     spice_playback_compression = on
+08/28 00:56:17 DEBUG|      virt:0063|     spice_port = generate
+08/28 00:56:17 DEBUG|      virt:0063|     spice_secure_channels = main, inputs
+08/28 00:56:17 DEBUG|      virt:0063|     spice_ssl = no
+08/28 00:56:17 DEBUG|      virt:0063|     spice_streaming_video = all
+08/28 00:56:17 DEBUG|      virt:0063|     spice_tls_ciphers = DEFAULT
+08/28 00:56:17 DEBUG|      virt:0063|     spice_tls_port = generate
+08/28 00:56:17 DEBUG|      virt:0063|     spice_x509_cacert_file = ca-cert.pem
+08/28 00:56:17 DEBUG|      virt:0063|     spice_x509_cacert_subj = /C=CZ/L=BRNO/O=SPICE/CN=my CA
+08/28 00:56:17 DEBUG|      virt:0063|     spice_x509_cert_file = server-cert.pem
+08/28 00:56:17 DEBUG|      virt:0063|     spice_x509_dir = yes
+08/28 00:56:17 DEBUG|      virt:0063|     spice_x509_key_file = server-key.pem
+08/28 00:56:17 DEBUG|      virt:0063|     spice_x509_key_password = testPassPhrase
+08/28 00:56:17 DEBUG|      virt:0063|     spice_x509_prefix = /tmp/spice_x509d
+08/28 00:56:17 DEBUG|      virt:0063|     spice_x509_secure = no
+08/28 00:56:17 DEBUG|      virt:0063|     spice_x509_server_subj = /C=CZ/L=BRNO/O=SPICE/CN=my Server
+08/28 00:56:17 DEBUG|      virt:0063|     spice_zlib_glz_wan_compression = auto
+08/28 00:56:17 DEBUG|      virt:0063|     srchost = 10.66.106.22
+08/28 00:56:17 DEBUG|      virt:0063|     start_vm = yes
+08/28 00:56:17 DEBUG|      virt:0063|     status_test_command = echo $?
+08/28 00:56:17 DEBUG|      virt:0063|     store_vm_register = yes
+08/28 00:56:17 DEBUG|      virt:0063|     strict_mode = no
+08/28 00:56:17 DEBUG|      virt:0063|     subtest = io-github-autotest-qemu.hello_world
+08/28 00:56:17 DEBUG|      virt:0063|     sysfs_dir = /sys
+08/28 00:56:17 DEBUG|      virt:0063|     take_regular_screendumps = yes
+08/28 00:56:17 DEBUG|      virt:0063|     test_timeout = 14400
+08/28 00:56:17 DEBUG|      virt:0063|     try_serial_login = yes
+08/28 00:56:17 DEBUG|      virt:0063|     type = hello_world
+08/28 00:56:17 DEBUG|      virt:0063|     url_auto_ip = 192.168.122.1
+08/28 00:56:17 DEBUG|      virt:0063|     usb_controller_tablet1 = uhci
+08/28 00:56:17 DEBUG|      virt:0063|     usb_devices = tablet1
+08/28 00:56:17 DEBUG|      virt:0063|     usb_max_port = 2
+08/28 00:56:17 DEBUG|      virt:0063|     usb_type = ich9-usb-uhci1
+08/28 00:56:17 DEBUG|      virt:0063|     usb_type_tablet1 = usb-tablet
+08/28 00:56:17 DEBUG|      virt:0063|     usb_type_usb1 = ich9-usb-uhci1
+08/28 00:56:17 DEBUG|      virt:0063|     usbs = usb1
+08/28 00:56:17 DEBUG|      virt:0063|     use_autostart = no
+08/28 00:56:17 DEBUG|      virt:0063|     use_check_cpu = yes
+08/28 00:56:17 DEBUG|      virt:0063|     use_debug = yes
+08/28 00:56:17 DEBUG|      virt:0063|     use_nic_scritps = no
+08/28 00:56:17 DEBUG|      virt:0063|     use_no_reboot = no
+08/28 00:56:17 DEBUG|      virt:0063|     use_os_type = yes
+08/28 00:56:17 DEBUG|      virt:0063|     use_os_variant = no
+08/28 00:56:17 DEBUG|      virt:0063|     use_storage = local_stg
+08/28 00:56:17 DEBUG|      virt:0063|     use_virt_install_wait = no
+08/28 00:56:17 DEBUG|      virt:0063|     used_cpus = 
+08/28 00:56:17 DEBUG|      virt:0063|     used_mem = 
+08/28 00:56:17 DEBUG|      virt:0063|     username = root
+08/28 00:56:17 DEBUG|      virt:0063|     vcpu_cores = 0
+08/28 00:56:17 DEBUG|      virt:0063|     vcpu_sockets = 2
+08/28 00:56:17 DEBUG|      virt:0063|     vcpu_thread_pattern = u'thread_id':\s+(\d+)
+08/28 00:56:17 DEBUG|      virt:0063|     vcpu_threads = 1
+08/28 00:56:17 DEBUG|      virt:0063|     vfd_size = 1440k
+08/28 00:56:17 DEBUG|      virt:0063|     vga = cirrus
+08/28 00:56:17 DEBUG|      virt:0063|     vhost = vhost=on
+08/28 00:56:17 DEBUG|      virt:0063|     virt_install_wait_time = 300
+08/28 00:56:17 DEBUG|      virt:0063|     virt_test_type = qemu
+08/28 00:56:17 DEBUG|      virt:0063|     virtio-blk-pci_scsi = 
+08/28 00:56:17 DEBUG|      virt:0063|     vm_arch_name = x86_64
+08/28 00:56:17 DEBUG|      virt:0063|     vm_register_delay = 5
+08/28 00:56:17 DEBUG|      virt:0063|     vm_type = qemu
+08/28 00:56:17 DEBUG|      virt:0063|     vms = virt-tests-vm1
+08/28 00:56:17 DEBUG|      virt:0063|     vnc_autoport = yes
+08/28 00:56:17 DEBUG|      virt:0063|     wait_augment_ratio = 1
+08/28 00:56:17 DEBUG|      virt:0063|     workaround_qemu_qmp_crash = always
+08/28 00:56:17 WARNI| utils_env:0164| Creating new, empty env file
+08/28 00:56:17 DEBUG|      virt:0116| Searching for test modules that match 'type = hello_world' and 'provider = io-github-autotest-qemu' on this cartesian dict
+08/28 00:56:17 DEBUG|utils_misc:1533| Detected CPU vendor as 'AuthenticAMD'
+08/28 00:56:17 DEBUG|utils_misc:1676| Could not find params qemu in /home/test/autotest-devel/client/tests/virt/backends/qemu/qemu, searching the host PATH for one to use
+08/28 00:56:17 DEBUG|utils_misc:1679| Found /usr/bin/qemu-kvm
+08/28 00:56:17 DEBUG|     utils:0116| Running '/usr/bin/qemu-kvm -cpu '?''
+08/28 00:56:17 DEBUG|     utils:0116| Running 'grep -q el5 /proc/version && cat /sys/module/kvm/version || uname -r'
+08/28 00:56:17 DEBUG|env_proces:0547| KVM version: 2.6.32-491.el6.x86_64
+08/28 00:56:17 DEBUG|     utils:0116| Running 'grep -q el5 /proc/version && rpm -qa | grep ^kvm-83-.* || rpm -qa | grep qemu-kvm-[0-9].*-.* | head -n 1'
+08/28 00:56:17 DEBUG|env_proces:0568| KVM userspace version: 
+08/28 00:56:17 DEBUG|     utils:0116| Running 'lsmod |grep ksm'
+08/28 00:56:17 DEBUG|     utils:0116| Running 'ps -C ksmtuned -o pid='
+08/28 00:56:17 DEBUG|     utils:0116| Running 'cat /sys/kernel/mm/ksm/run'
+08/28 00:56:17 DEBUG|     utils:0116| Running 'cat /sys/kernel/mm/ksm/pages_to_scan'
+08/28 00:56:17 DEBUG|     utils:0116| Running 'cat /sys/kernel/mm/ksm/sleep_millisecs'
+08/28 00:56:17 DEBUG|     utils:0116| Running 'ps -C ksmtuned -o pid='
+08/28 00:56:17 DEBUG|     utils:0116| Running 'echo 5000 > /sys/kernel/mm/ksm/pages_to_scan'
+08/28 00:56:17 DEBUG|     utils:0116| Running 'echo 1 > /sys/kernel/mm/ksm/run'
+08/28 00:56:17 DEBUG|     utils:0116| Running 'echo 50 > /sys/kernel/mm/ksm/sleep_millisecs'
+08/28 00:56:18 DEBUG|utils_misc:1676| Could not find params qemu in /home/test/autotest-devel/client/tests/virt/backends/qemu/qemu, searching the host PATH for one to use
+08/28 00:56:18 DEBUG|utils_misc:1679| Found /usr/bin/qemu-kvm
+08/28 00:56:18 DEBUG|     utils:0116| Running '/usr/bin/qemu-kvm -help'
+08/28 00:56:18 DEBUG|     utils:0116| Running '/usr/bin/qemu-kvm -device ? 2>&1'
+08/28 00:56:18 DEBUG|     utils:0116| Running '/usr/bin/qemu-kvm -M ?'
+08/28 00:56:18 DEBUG|     utils:0116| Running 'echo -e 'help
+quit' | /usr/bin/qemu-kvm -monitor stdio -vnc none'
+08/28 00:56:18 DEBUG|     utils:0116| Running 'echo -e '{ "execute": "qmp_capabilities" }
+{ "execute": "query-commands", "id": "RAND91" }
+{ "execute": "quit" }' | (sleep 1; cat )| /usr/bin/qemu-kvm -qmp stdio -vnc none | grep return | grep RAND91'
+08/28 00:56:19 DEBUG|   virt_vm:0821| Generating random mac address for nic
+08/28 00:56:19 DEBUG|   qemu_vm:1723| qemu will run in KVM mode
+08/28 00:56:19 DEBUG|utils_misc:1676| Could not find params qemu in /home/test/autotest-devel/client/tests/virt/backends/qemu/qemu, searching the host PATH for one to use
+08/28 00:56:19 DEBUG|utils_misc:1679| Found /usr/bin/qemu-kvm
+08/28 00:56:19 DEBUG|     utils:0116| Running '/usr/bin/qemu-kvm -help'
+08/28 00:56:19 DEBUG|     utils:0116| Running '/usr/bin/qemu-kvm -device ? 2>&1'
+08/28 00:56:20 DEBUG|     utils:0116| Running '/usr/bin/qemu-kvm -M ?'
+08/28 00:56:20 DEBUG|     utils:0116| Running 'echo -e 'help
+quit' | /usr/bin/qemu-kvm -monitor stdio -vnc none'
+08/28 00:56:20 DEBUG|     utils:0116| Running 'echo -e '{ "execute": "qmp_capabilities" }
+{ "execute": "query-commands", "id": "RAND91" }
+{ "execute": "quit" }' | (sleep 1; cat )| /usr/bin/qemu-kvm -qmp stdio -vnc none | grep return | grep RAND91'
+08/28 00:56:21 DEBUG|   qemu_vm:1723| qemu will run in KVM mode
+08/28 00:56:21 DEBUG|   virt_vm:0589| VM params in env do match requested, continuing.
+08/28 00:56:21 DEBUG| utils_net:0756| Host does not support OpenVSwitch: Missing command: ovs-vswitchd
+08/28 00:56:21 DEBUG| utils_net:0756| Host does not support OpenVSwitch: Missing command: ovs-vswitchd
+08/28 00:56:21 DEBUG|   qemu_vm:1768| Adding VM virt-tests-vm1 NIC ifname t0-0HREy3 to bridge switch
+08/28 00:56:21 DEBUG| utils_net:0756| Host does not support OpenVSwitch: Missing command: ovs-vswitchd
+08/28 00:56:21 DEBUG|utils_misc:1676| Could not find params qemu in /home/test/autotest-devel/client/tests/virt/backends/qemu/qemu, searching the host PATH for one to use
+08/28 00:56:21 DEBUG|utils_misc:1679| Found /usr/bin/qemu-kvm
+08/28 00:56:21 DEBUG|     utils:0116| Running '/usr/bin/qemu-kvm -help'
+08/28 00:56:21 DEBUG|     utils:0116| Running '/usr/bin/qemu-kvm -device ? 2>&1'
+08/28 00:56:22 DEBUG|     utils:0116| Running '/usr/bin/qemu-kvm -M ?'
+08/28 00:56:22 DEBUG|     utils:0116| Running 'echo -e 'help
+quit' | /usr/bin/qemu-kvm -monitor stdio -vnc none'
+08/28 00:56:22 DEBUG|     utils:0116| Running 'echo -e '{ "execute": "qmp_capabilities" }
+{ "execute": "query-commands", "id": "RAND91" }
+{ "execute": "quit" }' | (sleep 1; cat )| /usr/bin/qemu-kvm -qmp stdio -vnc none | grep return | grep RAND91'
+08/28 00:56:22 DEBUG| utils_env:0081| (address cache) DHCP lease OK: 2c:44:fd:7e:5a:0c --> 10.66.106.67
+08/28 00:56:23 DEBUG|   qemu_vm:1723| qemu will run in KVM mode
+08/28 00:56:23 DEBUG|   qemu_vm:2092| Devices of virt-tests-vm1: [t'PREFIX',t'qemu',t'-S',t'vmname',t'qemu_sandbox',t'machine',t'i440FX',t'PIIX4_PM',t'PIIX3',t'piix3-ide',t'fdc',t'nodefaults',t'VGA-cirrus',a'AC97',t'QMP-qmpmonitor1',t'SER-serial0',t'isa-log',usb1,virtio_scsi_pci0,drive_image1,image1,idgLFH3O,t'NET-bridge',t'mem',t'smp',t'cpu',usb-tablet1,t'display',t'rtc',t'bootmenu',t'extra',t'kvm']
+08/28 00:56:23 DEBUG|   qemu_vm:2093| Buses of virt-tests-vm1
+  drive_image1(QDrive): {drive:image1}
+  virtio_scsi_pci0.0(virtio-scsi-pci): {0-0:image1}
+  usb1.0(uhci): {1:usb-tablet1}
+  floppy(floppy): [None,None]
+  ide(ide): [None,None,None,None]
+  _PCI_CHASSIS_NR(None): {}
+  _PCI_CHASSIS(None): {}
+  pci.0(PCI): {00-00:t'i440FX',01-00:t'PIIX3',01-01:t'piix3-ide',01-03:t'PIIX4_PM',02-00:t'VGA-cirrus',03-00:a'AC97',04-00:usb1,05-00:virtio_scsi_pci0,06-00:idgLFH3O}
+08/28 00:56:23 INFO |   qemu_vm:2161| Running qemu command (reformatted):
+/usr/bin/qemu-kvm \
+    -S  \
+    -name 'virt-tests-vm1' \
+    -M rhel6.6.0  \
+    -nodefaults  \
+    -vga cirrus \
+    -device AC97,bus=pci.0,addr=03  \
+    -chardev socket,id=qmp_id_qmpmonitor1,path=/tmp/monitor-qmpmonitor1-20140828-005618-epCYkWva,server,nowait \
+    -mon chardev=qmp_id_qmpmonitor1,mode=control  \
+    -chardev socket,id=serial_id_serial0,path=/tmp/serial-serial0-20140828-005618-epCYkWva,server,nowait \
+    -device isa-serial,chardev=serial_id_serial0  \
+    -chardev socket,id=seabioslog_id_20140828-005618-epCYkWva,path=/tmp/seabios-20140828-005618-epCYkWva,server,nowait \
+    -device isa-debugcon,chardev=seabioslog_id_20140828-005618-epCYkWva,iobase=0x402 \
+    -device ich9-usb-uhci1,id=usb1,bus=pci.0,addr=04 \
+    -device virtio-scsi-pci,id=virtio_scsi_pci0,bus=pci.0,addr=05 \
+    -drive id=drive_image1,if=none,cache=none,snapshot=off,aio=native,file=/home/test/autotest-devel/client/tests/virt/shared/data/images/RHEL-Server-6.6-64-virtio.qcow2 \
+    -device scsi-hd,id=image1,drive=drive_image1 \
+    -device virtio-net-pci,mac=9a:22:23:24:25:26,id=idgLFH3O,vectors=4,netdev=idu2pIGu,bus=pci.0,addr=06  \
+    -netdev tap,id=idu2pIGu,vhost=on,vhostfd=23,fd=22  \
+    -m 4096  \
+    -smp 4,maxcpus=4,cores=2,threads=1,sockets=2  \
+    -cpu 'Opteron_G4' \
+    -device usb-tablet,id=usb-tablet1,bus=usb1.0,port=1  \
+    -vnc :1  \
+    -rtc base=utc,clock=host,driftfix=slew  \
+    -boot order=cdn,once=c,menu=off  \
+    -no-kvm-pit-reinjection \
+    -enable-kvm
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:24 DEBUG| utils_env:0064| (address cache) DHCP lease OK: 5c:f3:fc:db:b4:c0 --> 10.66.106.34
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:24 INFO |   qemu_vm:2170| Created qemu process with parent PID 15603
+08/28 00:56:24 DEBUG|     utils:0116| Running 'ps -L --ppid=15603 -o lwp'
+08/28 00:56:24 DEBUG|     utils:0116| Running 'ps --no-headers -o cmd 15605'
+08/28 00:56:24 DEBUG|     utils:0116| Running 'ps --no-headers -o cmd 15610'
+08/28 00:56:24 DEBUG|     utils:0116| Running 'ps --no-headers -o cmd 15611'
+08/28 00:56:24 DEBUG|     utils:0116| Running 'ps --no-headers -o cmd 15612'
+08/28 00:56:24 DEBUG|     utils:0116| Running 'ps --no-headers -o cmd 15613'
+08/28 00:56:24 DEBUG|     utils:0116| Running 'ps --no-headers -o cmd 15614'
+08/28 00:56:24 INFO |qemu_monit:0125| Connecting to monitor 'qmpmonitor1'
+08/28 00:56:25 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'qmp_capabilities' 
+08/28 00:56:25 DEBUG|qemu_monit:1372| Send command: {'execute': 'qmp_capabilities', 'id': '9v2vLiry'}
+08/28 00:56:25 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'help' (via Human Monitor)
+08/28 00:56:25 DEBUG|   qemu_vm:2276| VM appears to be alive with PID 15605
+08/28 00:56:25 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'query-cpus' 
+08/28 00:56:25 DEBUG|qemu_monit:1372| Send command: {'execute': 'query-cpus', 'id': 'njbKoG1O'}
+08/28 00:56:25 DEBUG|qemu_monit:1328| (monitor qmpmonitor1) Response to 'query-cpus' (re-formated)
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        halted: False
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        thread_id: 15611
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        enabled-in-acpi: True
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        current: True
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        pc: 4294967280
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        CPU: 0
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        halted: True
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        thread_id: 15612
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        enabled-in-acpi: True
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        current: False
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        pc: 4294967280
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        CPU: 1
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        halted: True
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        thread_id: 15613
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        enabled-in-acpi: True
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        current: False
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        pc: 4294967280
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        CPU: 2
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        halted: True
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        thread_id: 15614
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        enabled-in-acpi: True
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        current: False
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        pc: 4294967280
+08/28 00:56:25 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)        CPU: 3
+08/28 00:56:25 DEBUG|     utils:0116| Running 'ps aux'
+08/28 00:56:25 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'cont' 
+08/28 00:56:25 DEBUG|qemu_monit:1372| Send command: {'execute': 'cont', 'id': 'IRnkfEzu'}
+08/28 00:56:25 INFO |     error:0085| Context: Get the main VM
+08/28 00:56:25 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:56:25 DEBUG|   virt_vm:1037| Attempting to log into 'virt-tests-vm1' (timeout 360s)
+08/28 00:56:26 DEBUG| utils_env:0081| (address cache) DHCP lease OK: 00:50:56:85:3a:4b --> 10.66.109.167
+08/28 00:56:30 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:56:34 DEBUG| utils_env:0064| (address cache) DHCP lease OK: 5c:f3:fc:db:b4:c0 --> 10.66.106.34
+08/28 00:56:35 DEBUG| utils_env:0081| (address cache) DHCP lease OK: 2c:44:fd:7e:5a:0c --> 10.66.106.67
+08/28 00:56:35 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:56:40 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:56:41 DEBUG| utils_env:0081| (address cache) DHCP lease OK: 00:50:56:85:3a:4b --> 10.66.107.52
+08/28 00:56:41 DEBUG| utils_env:0081| (address cache) DHCP lease OK: 9a:f7:f8:f9:fa:fb --> 10.66.108.166
+08/28 00:56:43 DEBUG| utils_env:0064| (address cache) DHCP lease OK: 5c:f3:fc:db:b4:c0 --> 10.66.106.34
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:45 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:56:50 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:56:50 DEBUG| utils_env:0064| (address cache) DHCP lease OK: 78:ac:c0:fd:bb:26 --> 10.66.104.107
+08/28 00:56:53 DEBUG| utils_env:0064| (address cache) DHCP lease OK: 5c:f3:fc:db:b4:c0 --> 10.66.106.34
+08/28 00:56:55 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:56:56 DEBUG| utils_env:0064| (address cache) DHCP lease OK: 9a:22:23:24:25:26 --> 10.66.109.198
+08/28 00:56:59 DEBUG| utils_env:0081| (address cache) DHCP lease OK: 2c:44:fd:7e:5a:0c --> 10.66.106.67
+08/28 00:57:00 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:57:05 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:57:10 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:57:11 DEBUG| utils_env:0064| (address cache) DHCP lease OK: 5c:f3:fc:db:b4:c0 --> 10.66.106.34
+08/28 00:57:11 DEBUG| utils_env:0081| (address cache) DHCP lease OK: 2c:44:fd:7e:5a:0c --> 10.66.106.67
+08/28 00:57:14 DEBUG|   virt_vm:0683| Found/Verified IP 10.66.109.198 for VM virt-tests-vm1 NIC 0
+08/28 00:57:14 DEBUG|   virt_vm:0683| Found/Verified IP 10.66.109.198 for VM virt-tests-vm1 NIC 0
+08/28 00:57:14 DEBUG|    remote:0234| Login command: 'ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o PreferredAuthentications=password -p 22 root@10.66.109.198'
+08/28 00:57:15 INFO |     error:0085| Context: Echo 'Hello, world!' in guest and get the output
+08/28 00:57:15 DEBUG|   aexpect:1470| Sending command: echo 'Hello, world!'
+08/28 00:57:15 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:57:15 DEBUG|   aexpect:1470| Sending command: echo $?
+08/28 00:57:16 INFO |hello_worl:0055| Guest cmd output: 'Hello, world!'
+08/28 00:57:16 INFO |     error:0085| Context: Send a monitor command
+08/28 00:57:16 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'query-status' 
+08/28 00:57:16 DEBUG|qemu_monit:1372| Send command: {'execute': 'query-status', 'id': 'mRiGTpLL'}
+08/28 00:57:16 DEBUG|qemu_monit:1328| (monitor qmpmonitor1) Response to 'query-status' (re-formated)
+08/28 00:57:16 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)    status: running
+08/28 00:57:16 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)    singlestep: False
+08/28 00:57:16 DEBUG|qemu_monit:1304| (monitor qmpmonitor1)    running: True
+08/28 00:57:16 INFO |hello_worl:0065| Monitor returns '{u'status': u'running', u'singlestep': False, u'running': True}'
+08/28 00:57:16 INFO |     error:0085| Context: Echo 'Hello, world!' in the host using shell
+08/28 00:57:16 DEBUG|     utils:0116| Running 'echo 'Hello, world!''
+08/28 00:57:16 INFO |hello_worl:0075| Host cmd output 'Hello, world!'
+08/28 00:57:16 INFO |     error:0085| Context: Get a required parameter from the config file
+08/28 00:57:16 INFO |hello_worl:0085| Sleep for '5' seconds
+08/28 00:57:20 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:57:21 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'stop' 
+08/28 00:57:21 DEBUG|qemu_monit:1372| Send command: {'execute': 'stop', 'id': 'BlSPiaCw'}
+08/28 00:57:21 DEBUG|utils_misc:1703| Could not find params qemu-img in /home/test/autotest-devel/client/tests/virt/backends/qemu/qemu-img, searching the host PATH for one to use
+08/28 00:57:21 DEBUG|utils_misc:1705| Found /usr/bin/qemu-img
+08/28 00:57:21 DEBUG|qemu_stora:0327| Run qemu-img info comamnd on /home/test/autotest-devel/client/tests/virt/shared/data/images/RHEL-Server-6.6-64-virtio.qcow2
+08/28 00:57:21 DEBUG|     utils:0116| Running '/usr/bin/qemu-img info /home/test/autotest-devel/client/tests/virt/shared/data/images/RHEL-Server-6.6-64-virtio.qcow2'
+08/28 00:57:21 DEBUG|qemu_stora:0404| Checking image file /home/test/autotest-devel/client/tests/virt/shared/data/images/RHEL-Server-6.6-64-virtio.qcow2
+08/28 00:57:21 DEBUG|     utils:0116| Running '/usr/bin/qemu-img info /home/test/autotest-devel/client/tests/virt/shared/data/images/RHEL-Server-6.6-64-virtio.qcow2'
+08/28 00:57:21 DEBUG|     utils:0116| Running '/usr/bin/qemu-img check /home/test/autotest-devel/client/tests/virt/shared/data/images/RHEL-Server-6.6-64-virtio.qcow2'
+08/28 00:57:21 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'cont' 
+08/28 00:57:21 DEBUG|qemu_monit:1372| Send command: {'execute': 'cont', 'id': 'qoKxbn3d'}
+08/28 00:57:21 DEBUG|env_proces:0744| Encoding video file /home/test/autotest-devel/client/results/default/virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world/debug/screendumps_virt-tests-vm1_15605-1.ogg
+08/28 00:57:21 ERROR|  warnings:0029| /home/test/autotest-devel/client/tests/virt/virttest/video_maker.py:200: DeprecationWarning: gst.Bin.add_many() is deprecated, use gst.Bin.add()
+08/28 00:57:21 ERROR|  warnings:0029|   pipeline.add_many(source, decoder, encoder, container, output)
+08/28 00:57:25 DEBUG|qemu_monit:0267| (monitor qmpmonitor1) Sending command 'info registers' (via Human Monitor)
+08/28 00:57:25 DEBUG|   virt_vm:1037| Attempting to log into 'virt-tests-vm1' (timeout 240s)
+08/28 00:57:26 DEBUG| utils_env:0081| (address cache) DHCP lease OK: 2c:44:fd:7e:5a:0c --> 10.66.106.67
+08/28 00:57:26 DEBUG|   virt_vm:0683| Found/Verified IP 10.66.109.198 for VM virt-tests-vm1 NIC 0
+08/28 00:57:26 DEBUG|   virt_vm:0683| Found/Verified IP 10.66.109.198 for VM virt-tests-vm1 NIC 0
+08/28 00:57:26 DEBUG|    remote:0234| Login command: 'ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o PreferredAuthentications=password -p 22 root@10.66.109.198'
+08/28 00:57:28 DEBUG|     utils:0116| Running 'lsmod |grep ksm'
+08/28 00:57:28 DEBUG|     utils:0116| Running 'ps -C ksmtuned -o pid='
+08/28 00:57:28 DEBUG|     utils:0116| Running 'cat /sys/kernel/mm/ksm/run'
+08/28 00:57:28 DEBUG|     utils:0116| Running 'cat /sys/kernel/mm/ksm/pages_to_scan'
+08/28 00:57:28 DEBUG|     utils:0116| Running 'cat /sys/kernel/mm/ksm/sleep_millisecs'
+08/28 00:57:28 DEBUG|     utils:0116| Running 'echo 100 > /sys/kernel/mm/ksm/pages_to_scan'
+08/28 00:57:28 DEBUG|     utils:0116| Running 'echo 0 > /sys/kernel/mm/ksm/run'
+08/28 00:57:28 DEBUG|     utils:0116| Running 'echo 20 > /sys/kernel/mm/ksm/sleep_millisecs'
+08/28 00:57:28 INFO |       job:0215| 		GOOD	virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world	virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world	timestamp=1409158648	localtime=Aug 28 00:57:28	completed successfully
+08/28 00:57:28 INFO |       job:0215| 	END GOOD	virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world	virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world	timestamp=1409158648	localtime=Aug 28 00:57:28	
+08/28 00:57:28 DEBUG|  base_job:0393| Persistent state client._record_indent now set to 1
+08/28 00:57:28 DEBUG|  base_job:0427| Persistent state client.unexpected_reboot deleted
+08/28 00:57:29 INFO |       job:0215| END GOOD	----	----	timestamp=1409158649	localtime=Aug 28 00:57:29	
+08/28 00:57:29 DEBUG|  base_job:0393| Persistent state client._record_indent now set to 0
+08/28 00:57:29 INFO |    report:0289| Report successfully generated at /home/test/autotest-devel/client/results/default/job_report.html

@@ -1,0 +1,8 @@
+Filesystem                               1048576-blocks    Used Available Capacity Mounted on
+/dev/mapper/VolGroup-LogVol_root                 881814   14338    822676       2% /
+tmpfs                                             16039       0     16039       0% /dev/shm
+/dev/sda1                                           477      83       369      19% /boot
+10.66.90.121:/vol/s2coredump                     512000    4119    507882       1% /var/crash
+10.66.90.128:/vol/S2/kvmauto/iso                1894400 1659163    235238      88% /home/kvm_autotest_root/iso
+10.66.90.128:/vol/S2/kvmauto/windows_img        1894400 1659163    235238      88% /mnt/windows
+10.66.90.128:/vol/S2/kvmauto/linux_img          1894400 1659163    235238      88% /mnt/linux

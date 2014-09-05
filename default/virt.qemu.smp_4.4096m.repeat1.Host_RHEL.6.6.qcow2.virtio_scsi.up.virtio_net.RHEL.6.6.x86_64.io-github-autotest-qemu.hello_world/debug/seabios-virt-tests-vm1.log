@@ -1,0 +1,71 @@
+2014-08-28 00:56:25: Start bios (version seabios-0.6.1.2-28.el6)
+2014-08-28 00:56:25: Ram Size=0xe0000000 (0x0000000020000000 high)
+2014-08-28 00:56:25: CPU Mhz=3003
+2014-08-28 00:56:25: PCI: pci_bios_init_bus_rec bus = 0x0
+2014-08-28 00:56:25: PIIX3/PIIX4 init: elcr=00 0c
+2014-08-28 00:56:25: PCI: bus=0 devfn=0x00: vendor_id=0x8086 device_id=0x1237
+2014-08-28 00:56:25: PCI: bus=0 devfn=0x08: vendor_id=0x8086 device_id=0x7000
+2014-08-28 00:56:25: PCI: bus=0 devfn=0x09: vendor_id=0x8086 device_id=0x7010
+2014-08-28 00:56:25: region 4: 0x0000c000
+2014-08-28 00:56:25: PCI: bus=0 devfn=0x0b: vendor_id=0x8086 device_id=0x7113
+2014-08-28 00:56:25: Using pmtimer, ioport 0xb008, freq 3579 kHz
+2014-08-28 00:56:25: PCI: bus=0 devfn=0x10: vendor_id=0x1013 device_id=0x00b8
+2014-08-28 00:56:25: region 0: 0xf0000000
+2014-08-28 00:56:25: region 1: 0xf2000000
+2014-08-28 00:56:25: region 6: 0xf2010000
+2014-08-28 00:56:25: PCI: bus=0 devfn=0x18: vendor_id=0x8086 device_id=0x2415
+2014-08-28 00:56:25: region 0: 0x0000c400
+2014-08-28 00:56:25: region 1: 0x0000c800
+2014-08-28 00:56:25: PCI: bus=0 devfn=0x20: vendor_id=0x8086 device_id=0x2934
+2014-08-28 00:56:25: region 4: 0x0000c900
+2014-08-28 00:56:25: PCI: bus=0 devfn=0x28: vendor_id=0x1af4 device_id=0x1004
+2014-08-28 00:56:25: region 0: 0x0000c940
+2014-08-28 00:56:25: region 1: 0xf2020000
+2014-08-28 00:56:25: PCI: bus=0 devfn=0x30: vendor_id=0x1af4 device_id=0x1000
+2014-08-28 00:56:25: region 0: 0x0000c980
+2014-08-28 00:56:25: region 1: 0xf2021000
+2014-08-28 00:56:25: region 6: 0xf2030000
+2014-08-28 00:56:25: Found 4 cpu(s) max supported 4 cpu(s)
+2014-08-28 00:56:25: MP table addr=0x000fda30 MPC table addr=0x000fda40 size=260
+2014-08-28 00:56:25: SMBIOS ptr=0x000fda10 table=0xdffffe20
+2014-08-28 00:56:25: ACPI tables: RSDP=0x000fd9e0 RSDT=0xdfffd470
+2014-08-28 00:56:25: Scan for VGA option rom
+2014-08-28 00:56:25: Running option rom at c000:0003
+2014-08-28 00:56:25: Turning on vga text mode console
+2014-08-28 00:56:25: SeaBIOS (version seabios-0.6.1.2-28.el6)
+2014-08-28 00:56:25: UHCI init on dev 00:04.0 (io=c900)
+2014-08-28 00:56:25: Found 0 lpt ports
+2014-08-28 00:56:25: Found 1 serial ports
+2014-08-28 00:56:25: ATA controller 0 at 1f0/3f4/0 (irq 14 dev 9)
+2014-08-28 00:56:25: ATA controller 1 at 170/374/0 (irq 15 dev 9)
+2014-08-28 00:56:25: found virtio-scsi at 0:5
+2014-08-28 00:56:25: ebda moved from 9fc00 to 9dc00
+2014-08-28 00:56:25: virtio-scsi vendor='QEMU' product='QEMU HARDDISK' rev='0.12' type=0 removable=0
+2014-08-28 00:56:25: virtio-scsi blksize=512 sectors=41943040
+2014-08-28 00:56:25: Searching bootorder for: /pci@i0cf8/*@5/*@0/*@0,0
+2014-08-28 00:56:25: PS2 keyboard initialized
+2014-08-28 00:56:25: All threads complete.
+2014-08-28 00:56:25: Scan for option roms
+2014-08-28 00:56:25: Running option rom at c900:0003
+2014-08-28 00:56:25: pnp call arg1=60
+2014-08-28 00:56:25: pmm call arg1=0
+2014-08-28 00:56:25: pmm call arg1=2
+2014-08-28 00:56:25: pmm call arg1=0
+2014-08-28 00:56:29: Searching bootorder for: /pci@i0cf8/*@6
+2014-08-28 00:56:29: Searching bootorder for: /rom@genroms/vapic.bin
+2014-08-28 00:56:29: Searching bootorder for: HALT
+2014-08-28 00:56:29: drive 0x000fd990: PCHS=0/0/0 translation=lba LCHS=1024/255/63 s=41943040
+2014-08-28 00:56:29: Running option rom at c980:0003
+2014-08-28 00:56:29: Returned 53248 bytes of ZoneHigh
+2014-08-28 00:56:29: e820 map has 7 items:
+2014-08-28 00:56:29:   0: 0000000000000000 - 000000000009dc00 = 1
+2014-08-28 00:56:29:   1: 000000000009dc00 - 00000000000a0000 = 2
+2014-08-28 00:56:29:   2: 00000000000f0000 - 0000000000100000 = 2
+2014-08-28 00:56:29:   3: 0000000000100000 - 00000000dfffd000 = 1
+2014-08-28 00:56:29:   4: 00000000dfffd000 - 00000000e0000000 = 2
+2014-08-28 00:56:29:   5: 00000000fffbc000 - 0000000100000000 = 2
+2014-08-28 00:56:29:   6: 0000000100000000 - 0000000120000000 = 1
+2014-08-28 00:56:29: enter handle_19:
+2014-08-28 00:56:29:   NULL
+2014-08-28 00:56:29: Booting from Hard Disk...
+2014-08-28 00:56:29: Booting from 0000:7c00

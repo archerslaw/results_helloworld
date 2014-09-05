@@ -1,0 +1,3 @@
+bridge name	bridge id		STP enabled	interfaces
+switch		8000.047d7bfc7303	no		eth0
+							t0-BPqnsr

@@ -1,0 +1,321 @@
+08/28 00:54:11 INFO |       job:0188| Writing results to /home/test/autotest-devel/client/results/default
+08/28 00:54:11 INFO |       job:0215| START	----	----	timestamp=1409158451	localtime=Aug 28 00:54:11	
+08/28 00:54:11 INFO | bootstrap:0446| 
+08/28 00:54:11 INFO | bootstrap:0448| 1 - Generating config set
+08/28 00:54:43 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.18-274')
+08/28 00:54:43 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.18-308')
+08/28 00:54:43 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:54:43 INFO |   control:0111| require is: (['>= 2.6.18-274', '<  2.6.18-308'],)
+08/28 00:54:43 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:54:43 INFO |   control:0111| 
+08/28 00:55:00 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.18-308')
+08/28 00:55:00 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.18-348')
+08/28 00:55:00 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:55:00 INFO |   control:0111| require is: (['>= 2.6.18-308', '<  2.6.18-348'],)
+08/28 00:55:00 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:55:00 INFO |   control:0111| 
+08/28 00:55:16 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.18-348')
+08/28 00:55:16 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.18-349')
+08/28 00:55:16 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:55:16 INFO |   control:0111| require is: (['>= 2.6.18-348', '<  2.6.18-349'],)
+08/28 00:55:16 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:55:16 INFO |   control:0111| 
+08/28 00:55:32 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.18-349')
+08/28 00:55:32 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.18-372')
+08/28 00:55:32 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:55:32 INFO |   control:0111| require is: (['>= 2.6.18-349', '<  2.6.18-372'],)
+08/28 00:55:32 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:55:32 INFO |   control:0111| 
+08/28 00:55:49 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.18-372')
+08/28 00:55:49 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.19')
+08/28 00:55:49 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:55:49 INFO |   control:0111| require is: (['>= 2.6.18-372', '<  2.6.19'],)
+08/28 00:55:49 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:55:49 INFO |   control:0111| 
+08/28 00:55:56 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.32-131')
+08/28 00:55:56 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.32-220')
+08/28 00:55:56 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:55:56 INFO |   control:0111| require is: (['>= 2.6.32-131', '<  2.6.32-220'],)
+08/28 00:55:56 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:55:56 INFO |   control:0111| 
+08/28 00:55:58 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.32-220')
+08/28 00:55:58 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.32-279')
+08/28 00:55:58 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:55:58 INFO |   control:0111| require is: (['>= 2.6.32-220', '<  2.6.32-279'],)
+08/28 00:55:58 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:55:58 INFO |   control:0111| 
+08/28 00:56:00 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.32-279')
+08/28 00:56:00 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.32-280')
+08/28 00:56:00 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:56:00 INFO |   control:0111| require is: (['>= 2.6.32-279', '<  2.6.32-280'],)
+08/28 00:56:00 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:56:00 INFO |   control:0111| 
+08/28 00:56:02 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.32-280')
+08/28 00:56:02 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.32-359')
+08/28 00:56:02 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:56:02 INFO |   control:0111| require is: (['>= 2.6.32-280', '<  2.6.32-359'],)
+08/28 00:56:02 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:56:02 INFO |   control:0111| 
+08/28 00:56:04 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.32-359')
+08/28 00:56:04 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.32-432')
+08/28 00:56:04 INFO |   control:0111| kernel in system is not fit the requires for test.
+08/28 00:56:04 INFO |   control:0111| require is: (['>= 2.6.32-359', '<  2.6.32-432'],)
+08/28 00:56:04 INFO |   control:0111| system is: 2.6.32-491.el6.x86_64
+08/28 00:56:04 INFO |   control:0111| 
+08/28 00:56:06 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') >= version.LooseVersion('2.6.32-432')
+08/28 00:56:06 INFO |   control:0097| version.LooseVersion('2.6.32-491.el6.x86_64') < version.LooseVersion('2.6.33')
+08/28 00:56:13 INFO |utils_misc:0495| Test    1:  smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world
+08/28 00:56:16 INFO |       job:0215| 	START	virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world	virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world	timestamp=1409158576	localtime=Aug 28 00:56:16	
+08/28 00:56:16 INFO |      virt:0057| Virt Test '0.15.1-master-14406-g18820', Branch 'master', SHA1 '188205a7bdb33f7b2a3babc8ac4935b17f3fcfaa'
+08/28 00:56:17 WARNI| utils_env:0164| Creating new, empty env file
+08/28 00:56:23 INFO |   qemu_vm:2161| Running qemu command (reformatted):
+/usr/bin/qemu-kvm \
+    -S  \
+    -name 'virt-tests-vm1' \
+    -M rhel6.6.0  \
+    -nodefaults  \
+    -vga cirrus \
+    -device AC97,bus=pci.0,addr=03  \
+    -chardev socket,id=qmp_id_qmpmonitor1,path=/tmp/monitor-qmpmonitor1-20140828-005618-epCYkWva,server,nowait \
+    -mon chardev=qmp_id_qmpmonitor1,mode=control  \
+    -chardev socket,id=serial_id_serial0,path=/tmp/serial-serial0-20140828-005618-epCYkWva,server,nowait \
+    -device isa-serial,chardev=serial_id_serial0  \
+    -chardev socket,id=seabioslog_id_20140828-005618-epCYkWva,path=/tmp/seabios-20140828-005618-epCYkWva,server,nowait \
+    -device isa-debugcon,chardev=seabioslog_id_20140828-005618-epCYkWva,iobase=0x402 \
+    -device ich9-usb-uhci1,id=usb1,bus=pci.0,addr=04 \
+    -device virtio-scsi-pci,id=virtio_scsi_pci0,bus=pci.0,addr=05 \
+    -drive id=drive_image1,if=none,cache=none,snapshot=off,aio=native,file=/home/test/autotest-devel/client/tests/virt/shared/data/images/RHEL-Server-6.6-64-virtio.qcow2 \
+    -device scsi-hd,id=image1,drive=drive_image1 \
+    -device virtio-net-pci,mac=9a:22:23:24:25:26,id=idgLFH3O,vectors=4,netdev=idu2pIGu,bus=pci.0,addr=06  \
+    -netdev tap,id=idu2pIGu,vhost=on,vhostfd=23,fd=22  \
+    -m 4096  \
+    -smp 4,maxcpus=4,cores=2,threads=1,sockets=2  \
+    -cpu 'Opteron_G4' \
+    -device usb-tablet,id=usb-tablet1,bus=usb1.0,port=1  \
+    -vnc :1  \
+    -rtc base=utc,clock=host,driftfix=slew  \
+    -boot order=cdn,once=c,menu=off  \
+    -no-kvm-pit-reinjection \
+    -enable-kvm
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:23 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:24 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:24 INFO |   qemu_vm:2170| Created qemu process with parent PID 15603
+08/28 00:56:24 INFO |qemu_monit:0125| Connecting to monitor 'qmpmonitor1'
+08/28 00:56:25 INFO |     error:0085| Context: Get the main VM
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:56:44 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.mc'
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for playback failed
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.po'
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: pa_simple_new for capture failed
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] pulseaudio: Reason: Connection refused
+08/28 00:57:05 INFO |   aexpect:0968| [qemu output] audio: Failed to create voice `ac97.pi'
+08/28 00:57:15 INFO |     error:0085| Context: Echo 'Hello, world!' in guest and get the output
+08/28 00:57:16 INFO |hello_worl:0055| Guest cmd output: 'Hello, world!'
+08/28 00:57:16 INFO |     error:0085| Context: Send a monitor command
+08/28 00:57:16 INFO |hello_worl:0065| Monitor returns '{u'status': u'running', u'singlestep': False, u'running': True}'
+08/28 00:57:16 INFO |     error:0085| Context: Echo 'Hello, world!' in the host using shell
+08/28 00:57:16 INFO |hello_worl:0075| Host cmd output 'Hello, world!'
+08/28 00:57:16 INFO |     error:0085| Context: Get a required parameter from the config file
+08/28 00:57:16 INFO |hello_worl:0085| Sleep for '5' seconds
+08/28 00:57:21 ERROR|  warnings:0029| /home/test/autotest-devel/client/tests/virt/virttest/video_maker.py:200: DeprecationWarning: gst.Bin.add_many() is deprecated, use gst.Bin.add()
+08/28 00:57:21 ERROR|  warnings:0029|   pipeline.add_many(source, decoder, encoder, container, output)
+08/28 00:57:28 INFO |       job:0215| 		GOOD	virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world	virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world	timestamp=1409158648	localtime=Aug 28 00:57:28	completed successfully
+08/28 00:57:28 INFO |       job:0215| 	END GOOD	virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world	virt.qemu.smp_4.4096m.repeat1.Host_RHEL.6.6.qcow2.virtio_scsi.up.virtio_net.RHEL.6.6.x86_64.io-github-autotest-qemu.hello_world	timestamp=1409158648	localtime=Aug 28 00:57:28	
+08/28 00:57:29 INFO |       job:0215| END GOOD	----	----	timestamp=1409158649	localtime=Aug 28 00:57:29	
+08/28 00:57:29 INFO |    report:0289| Report successfully generated at /home/test/autotest-devel/client/results/default/job_report.html

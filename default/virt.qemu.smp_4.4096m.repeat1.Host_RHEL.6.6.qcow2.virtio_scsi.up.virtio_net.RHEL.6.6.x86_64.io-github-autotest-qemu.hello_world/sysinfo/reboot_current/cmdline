@@ -1,0 +1,1 @@
+ro root=/dev/mapper/VolGroup-LogVol_root processor.max_cstate=1 console=tty0 console=ttyS0,115200 reboot=pci rd_NO_LUKS LANG=en_US.UTF-8 rd_NO_MD SYSFONT=latarcyrheb-sun16 rd_LVM_LV=VolGroup/LogVol_swap crashkernel=131M@0M rd_LVM_LV=VolGroup/LogVol_root rd_LVM_LV=VolGroup/Reserved_LV  KEYBOARDTYPE=pc KEYTABLE=us rd_NO_DM
